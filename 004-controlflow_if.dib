@@ -1,0 +1,35 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!markdown
+
+`if <condition> then <expression>`
+
+#!fsharp
+
+let age:int = 65
+
+#!fsharp
+
+if age > 64
+then printfn "Senior citizen"
+else printfn "Citizen"
+
+#!markdown
+
+use if constrict as an expression
+
+#!fsharp
+
+let message:string = if age > 65 then "Senior citizen" else "Citizen"
+
+#!markdown
+
+`elif` construct
+
+#!fsharp
+
+let cardValue = 1
+let cardDescription = if cardValue = 1 then "Ace" elif cardValue = 14 then "Ace" else "A card"
+printfn "%s" cardDescription
