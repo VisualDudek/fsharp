@@ -1,0 +1,15 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"fsharp","items":[{"aliases":[],"languageName":"fsharp","name":"fsharp"}]}}
+
+#!fsharp
+
+printfn("hello world")
+
+#!fsharp
+
+let add x y = x + y
+
+#!fsharp
+
+add 2 3
