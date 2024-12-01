@@ -1,0 +1,33 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!markdown
+
+Make it mutable
+
+#!fsharp
+
+let mutable name = "marcin"
+
+#!fsharp
+
+name <- "Marcin"
+
+#!markdown
+
+Type explicit: `varaibleName:<type>`
+
+#!fsharp
+
+let n:int = 0
+
+#!markdown
+
+String interpolation
+
+#!fsharp
+
+let name = "Luis"
+let company = "Microsoft"
+printfn $"Name: {name}, Company: {company}"
