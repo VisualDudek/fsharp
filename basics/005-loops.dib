@@ -7,3 +7,16 @@
 - `for...in`
 - `for...[to|downto]`
 - `while...do`
+
+#!markdown
+
+```fsharp
+for <pattern> in <enumerable-expression> do
+  <body-expression>
+```
+
+#!fsharp
+
+let list = [1; 2; 3; 4; 5]
+for i in list do
+   printf "%d " i
